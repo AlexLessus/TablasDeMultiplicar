@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Multiplicar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Tabla de Multiplicar</h1>
+        
+        <div class="input-section">
+            <input 
+                type="number" 
+                id="numeroInput" 
+                placeholder="Ingresa un número" 
+                min="1"
+                max="1000"
+            >
+            <button id="generarBtn">Generar Tabla</button>
+        </div>
+
+        <div id="tablasContainer" class="tablas-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
